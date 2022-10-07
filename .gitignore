@@ -134,5 +134,6 @@ dmypy.json
 # Excel macro files
 *.xlsm
 
-# out files used for testing
+# out and misc files used for testing
 out.txt
+misc_*.py

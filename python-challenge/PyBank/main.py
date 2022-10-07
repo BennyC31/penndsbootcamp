@@ -21,9 +21,9 @@ def calc_ave_change(df):
     return (close_amt - open_amt) / (get_months(df) - 1)
 
 def calc_max_inc_dec(df):
-    new_df = df['Profit/Losses'].sub(df['Profit/Losses'].shift(1).fillna(0))
+    diff_df = df['Profit/Losses'].sub(df['Profit/Losses'].shift(1).fillna(0))
     tmp_df = df
-    tmp_df['Change'] = new_df
+    tmp_df['Change'] = diff_df
     chng_col = 'Change'
     max_chg = tmp_df.loc[tmp_df[chng_col].idxmax()]
     max_dict = max_chg.to_dict()

@@ -137,3 +137,4 @@ dmypy.json
 # out and misc files used for testing
 out.txt
 misc_*.py
+.vscode

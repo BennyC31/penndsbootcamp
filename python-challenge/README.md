@@ -9,6 +9,7 @@ This challenge required two analysis modules to be created.  PyBank module provi
 
 
 ## PyBank
+**Python version 3.9.0**
 
 Provides financial analysis for a bank budget.
 
@@ -26,6 +27,7 @@ Provides financial analysis for a bank budget.
     /venv
 
 ## PyPoll
+**Python version 3.9.0**
 
 Calculates election results.
 
@@ -57,7 +59,7 @@ Calculates election results.
 The pandas version was created first.  It requires pandas to be installed to run *main_pandas.py* module.  The *requirements.txt* file was created using `pip freeze > requirements.txt` to ensure the same version will be installed.
 
 ## Developer Notes
-Module documentation: 
+Module documentation created using [Google docstring style guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings).
 
 * Run `pydoc /PyBank/main.py`
 * Run `pydoc /PyPoll/main.py`

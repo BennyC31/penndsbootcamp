@@ -11,6 +11,9 @@ Author:
 import csv
 import os
 
+# Application path.
+
+
 app_path = os.path.dirname(__file__)
 
 def read_csv():

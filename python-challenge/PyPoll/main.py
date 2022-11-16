@@ -114,7 +114,7 @@ def calc_results(e_results,tot_votes):
             Total number of election votes.
     
     Returns:
-        tupple: All candidates with the following info
+        tuple: All candidates with the following info
                 name, vote percentage and total votes.
 
     Raises:

@@ -139,3 +139,4 @@ out.txt
 misc_*.py
 .vscode
 api_keys.py
+sql_config.py

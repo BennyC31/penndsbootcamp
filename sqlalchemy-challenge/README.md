@@ -12,10 +12,13 @@ app.py - python script for the APIs.
 Not enough time.
 
 ## Other Files
-* hawaii.sqlite - database used for the challenge.
-* hawaii_measruements.csv - data for the measurements table.
-* hawaii_stations.csv - data for the stations table.
-* hawaii_hw.sql - sql file used for performance and testing.
+    /Resources
+        |-hawaii.sqlite - database used for the challenge.
+        |-hawaii_measruements.csv - data for the measurements table.
+        |-hawaii_stations.csv - data for the stations table.
+        |-hawaii_hw.sql - sql file used for performance and testing.
+
+
 * temps.csv - file used for testing.
 * temps.xlsx - file used for testing.
 * *Note*: files ending with _starter.ipynb are saved for reference.

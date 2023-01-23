@@ -140,3 +140,4 @@ misc_*.py
 .vscode
 api_keys.py
 sql_config.py
+*_old.js

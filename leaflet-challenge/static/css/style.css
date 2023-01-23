@@ -22,19 +22,19 @@ html {
 }
 
 .legend .under_10 {
-  color: lime;
+  color: lightgreen;
 }
 .legend .under_30 {
-  color: lightgreen;
+  color: darkgreen;
 }
 .legend .under_50 {
   color: gold;
 }
 .legend .under_70 {
-  color:tan;
+  color:brown;
 }
 .legend .under_90 {
-  color: orange;
+  color: darkorange;
 }
 .legend .over_90 {
   color: red;
